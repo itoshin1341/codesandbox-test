@@ -81,3 +81,18 @@
 // const func3 = (num1, num2) => num1 + num2;
 
 // console.log(func3(10, 20));
+
+/**
+ * 分割代入
+ */
+// const myProfile = {
+//   name: "じゃけぇ",
+//   age: 28,
+// };
+
+// const message1 = `私の名前は${myProfile.name}です。年齢は${myProfile.age}歳です。`
+// console.log(message1);
+
+// const { name, age } = myProfile;
+// const message2 = `私の名前は${name}です。年齢は${age}歳です。`
+// console.log(message2);
