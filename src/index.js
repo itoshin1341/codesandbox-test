@@ -50,14 +50,14 @@
  */
 // const name = "じゃけぇ";
 // const age = 28;
-// // 「私の名前はじゃけぇです。年齢は28です。」
+// // 「名前はじゃけぇです。年齢は28です。」
 
 // // 従来の方法
-// const message1 = "私の名前は" + name + "です。年齢は"　+　age　+ "です。";
+// const message1 = "名前は" + name + "です。年齢は"　+　age　+ "です。";
 // console.log(message1);
 
 // // テンプレート文字列を用いた方法
-// const message2 = `私の名前は${name}です。年齢は${age}です。`;
+// const message2 = `名前は${name}です。年齢は${age}です。`;
 // console.log(message2);
 
 /**
@@ -90,9 +90,22 @@
 //   age: 28,
 // };
 
-// const message1 = `私の名前は${myProfile.name}です。年齢は${myProfile.age}歳です。`
+// const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}歳です。`
 // console.log(message1);
 
 // const { name, age } = myProfile;
-// const message2 = `私の名前は${name}です。年齢は${age}歳です。`
+// const message2 = `名前は${name}です。年齢は${age}歳です。`
 // console.log(message2);
+
+const myProfile = ["じゃけぇ", "28"];
+
+const message3 = `私の名前は${myProfile[0]}です。年齢は${myProfile[1]}歳です。`;
+console.log(message3);
+
+const [name, age] = myProfile;
+const message4 = `私の名前は${name}です。年齢は${age}歳です。`;
+console.log(message4);
+
+/**
+ * デフォルト値、引数など
+ */
